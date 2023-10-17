@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Hoves;
+  src: url(./TT\ Hoves\ Pro\ Trial\ Regular.ttf);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Hoves, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.cardListContainer {
+  position: relative;
+  margin: 0 auto;
+}
+
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1rem;
+  width: 75vw;
+  overflow: scroll;
+  margin: 0 auto;
+  scrollbar-width: none;
+}
+
+.cardList::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  width: 25vw;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.arrow[data-direction="left"] {
+  left: 3rem;
+}
+
+.arrow[data-direction="right"] {
+  right: 3rem;
+}

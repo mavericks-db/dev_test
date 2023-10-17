@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Test</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        myblue: '#1254FF',
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="script.js" defer></script>
+</head>
+
+<body class="flex flex-col bg-slate-100">
+    <section class="container">
+        <div class="flex flex-col p-5 gap-4px">
+            <h1 class="text-5xl font-medium">Join Facebook Groups</h1>
+            <h2 class="text-lg font-normal mt-4">Learn key digital marketing disciplines. From PPC to SEO, Content to
+                Video,
+                Social
+                and Analytics</h2>
+        </div>
+    </section>
+    <section class="cardListContainer container">
+        <section class="cardList">
+            <!-- Previous Arrow -->
+            <button type="button" id="left-arrow" class="arrow bg-white hover:bg-slate-200 text-myblue"
+                data-direction="left">&lt;</button>
+            <!-- Card 01 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image01.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Facebook Group</button>
+                    </div>
+                </a>
+            </div>
+            <!-- Card 02 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image02.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Job Board</button>
+                    </div>
+                </a>
+            </div>
+            <!-- Card 03 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image03.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Integration Network</button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Additional 6 cards -->
+            <!-- Card 01 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image01.svg" alt="NHB_trademark" class="object-cover" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Facebook Group</button>
+                    </div>
+                </a>
+            </div>
+            <!-- Card 02 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image02.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Job Board</button>
+                    </div>
+                </a>
+            </div>
+            <!-- Card 03 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image03.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Integration Network</button>
+                    </div>
+                </a>
+            </div>
+            <!-- Card 01 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image01.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Facebook Group</button>
+                    </div>
+                </a>
+            </div>
+            <!-- Card 02 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image02.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Job Board</button>
+                    </div>
+                </a>
+            </div>
+            <!-- Card 03 -->
+            <div class="card bg-white p-3 rounded-xl">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/images/Image03.svg" alt="NHB_trademark" />
+                    <div class="flex p-3 gap-4 border-b-2">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" srcset="">
+                        <div class="flex flex-col">
+                            <h2 class="text-base">NHB Facebook Group</h2>
+                            <h3 class="text-xs text-slate-500">21,349 members</h3>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <h1 class="text-xl font-medium">More than a job board. Hire talent. <br /> Built a team. Find a
+                            job.
+                            Get
+                            a gig.
+                            <br />Work with the
+                            best.
+                        </h1>
+                    </div>
+                    <div class="bg-myblue text-white w-full p-2 flex justify-center rounded">
+                        <img src="./assets/images/facebook.svg" alt="Facebook_logo" />
+                        <button>Join Integration Network</button>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Next Arrow -->
+            <button type="button" id="right-arrow" class="arrow bg-white hover:bg-slate-200 text-myblue"
+                data-direction="right">&gt;</button>
+        </section>
+    </section>
+</body>
+
+</html>
