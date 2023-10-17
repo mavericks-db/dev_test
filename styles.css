@@ -25,6 +25,7 @@ body {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   gap: 1rem;
+  min-width: 350px;
   width: 75vw;
   overflow: scroll;
   margin: 0 auto;
@@ -54,9 +55,21 @@ body {
 }
 
 .arrow[data-direction="left"] {
-  left: 3rem;
+  left: 2rem;
 }
 
 .arrow[data-direction="right"] {
-  right: 3rem;
+  right: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    min-width: inherit;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    min-width: inherit;
+  }
 }
